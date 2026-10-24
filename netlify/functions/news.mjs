@@ -11,7 +11,7 @@ const QUERIES = [
 ];
 const EXCLUDE = /\b(PFC|PFCL|Power Finance Corp\w*|REC Ltd|REC Limited|RECL|News Radar|NRD)\b/i;
 const MUST = /\b(power|electricity|energy|solar|wind|grid|coal|thermal|hydro\w*|nuclear|discoms?|transmission|batter(y|ies)|storage|BESS|MW|GW|GWh|MWh|tariff|renewables?|PPA|substation|megawatt|gigawatt|NTPC|NHPC|SJVN|SECI|CERC|POWERGRID|IEX|turbine|module|kV)\b/i;
-const NOISE = /\b(horoscope|cricket|IPL|box office|movie|bollywood|power ?bank|powerlifting|power couple|horsepower|willpower|superpower|power play|powerplay)\b/i;
+const NOISE = /\b(horoscope|cricket|IPL|box office|movie|bollywood|power ?bank|powerlifting|power couple|horsepower|willpower|superpower|power play|powerplay|RRB|recruitment|admit card|apply online|vacanc(y|ies)|syllabus|exam|answer key|result date|cut ?off marks)\b/i;
 const SEGS = [
   ["storage", /\b(BESS|batter(y|ies)|storage|pumped|MWh|GWh)\b/i],
   ["transmission", /\b(transmission|substation|kV|ISTS|POWERGRID|PGCIL|grid corridor|green energy corridor|ckm)\b/i],
